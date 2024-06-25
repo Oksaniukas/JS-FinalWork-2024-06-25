@@ -1,0 +1,151 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  max-width: 1440px;
+  min-width: 400px;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.header {
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.header-logo-wrapper {
+  width: 200px;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.yellow-wrapper {
+  background-color: #ffcc01;
+  height: 70px;
+  margin-bottom: 3rem;
+}
+
+.form-btn,
+.btn {
+  background-color: #359901;
+  border: none;
+  padding: 1rem 3rem;
+  color: #ffffff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-btn:hover {
+  background-color: #246501;
+}
+
+.house-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 70%;
+}
+
+.house-img-wrapper {
+  height: 450px;
+}
+.house-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.house-info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.house-info-descr p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  width: 40%;
+}
+
+.house-delete-text {
+  font-size: 2rem;
+  color: red;
+  width: 40%;
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .house-img-wrapper {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .house-img-wrapper {
+    height: 250px;
+  }
+  .house-wrapper {
+    width: 80%;
+  }
+  .yellow-wrapper {
+    height: 50px;
+    margin-bottom: 1.5rem;
+  }
+  .btn-wrapper {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .btn,
+  .form-btn {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .price {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .house-img-wrapper {
+    height: 200px;
+  }
+}

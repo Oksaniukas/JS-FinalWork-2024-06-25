@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADD form</title>
+    <link rel="stylesheet" href="./addNewHouse.css" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo-wrapper">
+        <a href="../index.html">
+          <img
+            class="logo-img"
+            src="https://static.skelbiu.lt/static/images/svg/logotipas_ua.svg?v=4"
+            alt="Skelbimai, parduodu - Skelbiu.lt"
+          />
+        </a>
+      </div>
+    </header>
+    <main id="form-wrapper">
+      <h2 class="form-title">Modular House Add form</h2>
+
+      <div class="form">
+        <label>Title:</label>
+        <input id="title" placeholder="title" />
+        <label>Price:</label>
+        <input id="price" placeholder="price" />
+        <label>Description:</label>
+        <input id="description" placeholder="description" />
+        <label>City:</label>
+        <input id="location" placeholder="location" />
+        <label>Area:</label>
+        <input id="area" placeholder="area" />
+        <label>Condition:</label>
+        <input id="condition" placeholder="condition" />
+        <label>Floors count:</label>
+        <input id="floors" placeholder="floors count" />
+        <label>House Image:</label>
+        <input id="houseImg" placeholder="houseImg" />
+      </div>
+      <div class="buttons-wrapper">
+        <button id="add-btn" class="form-btn">Add New House</button>
+
+        <button class="form-btn">
+          <a class="btn" href="../index.html"> Return to Main Page </a>
+        </button>
+      </div>
+    </main>
+
+    <script defer type="module" src="./addNewHouse.js"></script>
+  </body>
+</html>

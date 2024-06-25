@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modular Houses</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./icons/favicon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo-wrapper">
+        <a href="../index.html">
+          <img
+            class="logo-img"
+            src="https://static.skelbiu.lt/static/images/svg/logotipas_ua.svg?v=4"
+            alt="Skelbimai, parduodu - Skelbiu.lt"
+          />
+        </a>
+      </div>
+      <div class="header-links-wrapper">
+        <ul>
+          <li><a href="#">RU</a></li>
+          <li>
+            <a href="#">
+              <img
+                class="liked-icon"
+                src="./icons/heart-svgrepo-com.svg"
+                alt=""
+              />
+              <span class="liked-count">0</span>
+            </a>
+          </li>
+          <li><a href=".#">Log In</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
+      <img
+        id="burger-btn"
+        class="burger-btn"
+        src="./icons/hamburger-menu.svg"
+        alt="burger"
+      />
+      <nav id="mobile-nav" class="mobile-nav">
+        <ul>
+          <li><a href="#">RU</a></li>
+          <li>
+            <a href="#">
+              <img
+                class="liked-icon"
+                src="./icons/heart-svgrepo-com.svg"
+                alt=""
+              />
+              <span class="liked-count">0</span>
+            </a>
+          </li>
+          <li><a href=".#">Log In</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="add-search-wrapper">
+      <a href="./addNewHouse/addNewHouse.html"
+        ><button id="add-btn" class="add-btn">+ Add New House</button></a
+      >
+      <div class="search-wrapper">
+        <div class="search-input">
+          <input
+            id="text-to-find"
+            value=""
+            type="search"
+            placeholder="Enter a search word or phrase"
+          />
+        </div>
+        <a href="#">
+          <button id="search-btn" class="add-btn">Search</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="filter-wrapper">
+      <div class="filter">
+        <h3>Choose city:</h3>
+        <ul>
+          <li><a href="#" id="all-cities">All</a></li>
+          <li><a href="#" id="vilnius-city">Vilnius</a></li>
+          <li><a href="#" id="kaunas-city">Kaunas</a></li>
+          <li><a href="#" id="utena-city">Utena</a></li>
+          <li><a href="#" id="palanga-city">Palanga</a></li>
+        </ul>
+      </div>
+      <div class="filter">
+        <h3>Choose condition:</h3>
+        <ul>
+          <li><a id="all-condition" href="#">All</a></li>
+          <li><a id="new-condition" href="#">New</a></li>
+          <li><a id="used-condition" href="#">Used</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="cards-wrapper" class="cards-wrapper"></div>
+    <footer>
+      <div class="information">
+        <p>Skelbiu.lt : +370 680 55000</p>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#">D.U.K</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>Working hours: I-V 08:20 - 17:00, VI, VII 08:20 - 16:00</p>
+    </footer>
+
+    <script defer type="module" src="./script.js"></script>
+  </body>
+</html>

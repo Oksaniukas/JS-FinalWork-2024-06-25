@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete house</title>
+    <link rel="stylesheet" href="./houseInfo.css" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo-wrapper">
+        <a href="../index.html">
+          <img
+            class="logo-img"
+            src="https://static.skelbiu.lt/static/images/svg/logotipas_ua.svg?v=4"
+            alt="Skelbimai, parduodu - Skelbiu.lt"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="yellow-wrapper"></div>
+      <div id="house-wrapper" class="house-wrapper">
+        <div class="house-img-wrapper">
+          <img id="img" src="" alt="house-img" />
+        </div>
+        <h1 id="title"></h1>
+        <div class="house-info">
+          <h3>Price:</h3>
+          <p id="price" class="price"></p>
+        </div>
+        <div class="house-info">
+          <h3>Location:</h3>
+          <p id="location"></p>
+        </div>
+        <div class="house-info">
+          <h3>Area:</h3>
+          <p id="area"></p>
+        </div>
+        <div class="house-info">
+          <h3>Condition:</h3>
+          <p id="condition"></p>
+        </div>
+        <div class="house-info">
+          <h3>Floors:</h3>
+          <p id="floors"></p>
+        </div>
+        <div class="house-info-descr">
+          <h3>Description:</h3>
+          <p id="description"></p>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <button class="btn" id="delete-btn">DELETE</button>
+        <button class="form-btn">
+          <a class="btn" href="../index.html"> Return to Main Page </a>
+        </button>
+      </div>
+    </main>
+    <script defer type="module" src="./houseInfo.js"></script>
+  </body>
+</html>
